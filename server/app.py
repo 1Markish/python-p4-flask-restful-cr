@@ -74,6 +74,8 @@ class NewsletterByID(Resource):
         )
 
         return response
+    
+    
 
 api.add_resource(NewsletterByID, '/newsletters/<int:id>')
 
